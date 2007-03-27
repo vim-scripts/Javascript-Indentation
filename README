@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1840
+
+Yes, Javascript has similarities to C, but it is a more flexible syntax, with constructs that are not handled by cindent().  And they shouldn't be, since it's not really C.
+
+This script requires the IndentAnything plugin.
+
+Feedback is welcome.
