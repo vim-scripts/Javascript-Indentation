@@ -3,7 +3,7 @@
 "
 "   Javascript Indentation
 "
-" Version: 1.0
+" Version: 1.1
 "
 " Description:
 "
@@ -70,7 +70,7 @@ let b:blockCommentMiddleExtra = 1
 "
 let b:indentTrios = [
             \ [ '(', '', ')' ],
-            \ [ '{', '^\s*\(default:\|case.*:\)', '}' ]
+            \ [ '{', '\(default:\|case.*:\)', '}' ]
 \]
 
 
