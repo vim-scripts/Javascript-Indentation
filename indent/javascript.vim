@@ -37,6 +37,7 @@
 "
 "   1.1.1  -  Added license
 "   1.1.2  -  Added indentation for [...] pairs
+"   1.1.3  -  Fixed silly syntax error
 "
 "
 
@@ -87,8 +88,8 @@ let b:blockCommentMiddleExtra = 1
 
 let b:indentTrios = [
             \ [ '(',  '',                      ')'  ],
-            \ [ '{',  '\(default:\|case.*:\)', '}'  ]
-            \ [ '\[', '',                      '\]' ],
+            \ [ '{',  '\(default:\|case.*:\)', '}'  ],
+            \ [ '\[', '',                      '\]' ]
 \]
 
 
